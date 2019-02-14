@@ -17,4 +17,13 @@ sleep 5
 start
 end
 end
+def admin_mode
+puts "1) Add a answer"
+puts "2) See all answers"
+case gets.to_i
+when 1
+  puts "What answer would you like to add?"
+  @answer << gets.strip
+  puts 
+end 
 start

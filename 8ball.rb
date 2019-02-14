@@ -11,6 +11,9 @@ when "11"
   admin_mode
 else 
 responce = Random(@anwers.count)
-puts "#{@answers[responce]"
+puts "#{@answers[responce]}"
+sleep 5
+start
 end
 end
+start

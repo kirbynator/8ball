@@ -22,7 +22,8 @@ when "reset_answers"
 when"print_answers"
   @answers.each_with_index do |awnser, index|
     puts "#{index + 1}) #{answer}"
-    admin_mode
+    sleep 1
+    start
     end
 else 
   @answers << @extraAnswers
